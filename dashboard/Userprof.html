@@ -1,0 +1,295 @@
+
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Jekyll v4.0.1">
+    <title>Dashboard Template · Bootstrap</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/4.5/examples/dashboard/">
+
+    <!-- Bootstrap core CSS -->
+<link href="../assets/dist/css/bootstrap.css" rel="stylesheet">
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
+    <!-- Custom styles for this template -->
+    <link href="dashboard.css" rel="stylesheet">
+  </head>
+  <body>
+    <nav class="navbar navbar-dark sticky-top bg-dark flex-md-nowrap p-0 shadow">
+  <a class="navbar-brand col-md-3 col-lg-2 mr-0 px-3" href="#">Company name</a>
+  <button class="navbar-toggler position-absolute d-md-none collapsed" type="button" data-toggle="collapse" data-target="#sidebarMenu" aria-controls="sidebarMenu" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <input class="form-control form-control-dark w-100" type="text" placeholder="Search" aria-label="Search">
+  <ul class="navbar-nav px-3">
+    <li class="nav-item text-nowrap">
+      <a class="nav-link" href="#">Sign out</a>
+    </li>
+  </ul>
+</nav>
+
+<div class="container-fluid">
+  <div class="row">
+    <nav id="sidebarMenu" class="col-md-3 col-lg-2 d-md-block bg-light sidebar collapse">
+      <div class="sidebar-sticky pt-3">
+        <ul class="nav flex-column">
+          <li class="nav-item">
+            <a class="nav-link active" href="dashboard.html">
+              <span data-feather="home"></span>
+              Dashboard <span class="sr-only">(current)</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Choosecompany.html">
+              <span data-feather="file"></span>
+              Tickets
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">
+              <span data-feather="shopping-cart"></span>
+              Tickets Orders
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="UserProfile.html">
+              <span data-feather="users"></span>
+              User Profile
+            </a>
+          </li>
+        </ul>
+
+        
+      </div>
+    </nav>
+
+    <main role="main" class="col-md-9 ml-sm-auto col-lg-10 px-md-4">
+      <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
+        <h1 class="h2">Dashboard</h1>
+        <div class="btn-toolbar mb-2 mb-md-0">
+          <div class="btn-group mr-2">
+            <button type="button" class="btn btn-sm btn-outline-secondary">Share</button>
+            <button type="button" class="btn btn-sm btn-outline-secondary">Export</button>
+          </div>
+          <button type="button" class="btn btn-sm btn-outline-secondary dropdown-toggle">
+            <span data-feather="calendar"></span>
+            This week
+          </button>
+        </div>
+      </div>
+
+                   <!-- the chart was here  -->
+      <!-- <canvas class="my-4 w-100" id="myChart" width="900" height="380"></canvas> -->
+
+      <h2>Tickets </h2>
+
+<ul class="nav nav-tabs" id="myTab" role="tablist">
+            <li class="nav-item" role="presentation">
+              <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Book Ticket</a>
+            </li>
+            <li class="nav-item" role="presentation">
+              <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Ticket History</a>
+            </li>
+            <li class="nav-item" role="presentation">
+              <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false">Destinations</a>
+            </li>
+          </ul>
+          <div class="tab-content" id="myTabContent">
+
+
+            <!-- Book Ticket  -->
+
+     <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+
+        
+        </form>
+
+
+    </div>
+
+      <!-- Ticket history -->
+
+  <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+
+
+
+     <!--  begins here -->
+      <div class="container">
+        <div class="row" style="margin:5%;">
+          <!-- all the columns are in this mandatory row -->
+            <div class="col-4">
+                 <img src="Stars.jpg" class="card-img" alt="..." >
+            </div>
+          <div class="col-8">
+
+
+            <!-- One of three columns -->
+
+                                 <!-- beginning -->
+                     
+                    <div class="card ">
+                                  <div class="card-header">
+                                    <h5 class="title">Edit Profile</h5>
+                                  </div>
+                                  <div class="card-body">
+                                    <form>
+                                      <div class="row">
+                                        <div class="col-md-5 pr-md-1">
+                                          <div class="form-group">
+                                            <label>Company (disabled)</label>
+                                            <input type="text" class="form-control" disabled="" placeholder="Company" value="Creative Code Inc.">
+                                          </div>
+                                        </div>
+                                        <div class="col-md-3 px-md-1">
+                                          <div class="form-group">
+                                            <label>Username</label>
+                                            <input type="text" class="form-control" placeholder="Username" value="michael23">
+                                          </div>
+                                        </div>
+                                        <div class="col-md-4 pl-md-1">
+                                          <div class="form-group">
+                                            <label for="exampleInputEmail1">Email address</label>
+                                            <input type="email" class="form-control" placeholder="mike@email.com">
+                                          </div>
+                                        </div>
+                                      </div>
+                                      <div class="row">
+                                        <div class="col-md-6 pr-md-1">
+                                          <div class="form-group">
+                                            <label>First Name</label>
+                                            <input type="text" class="form-control" placeholder="Company" value="Mike">
+                                          </div>
+                                        </div>
+                                        <div class="col-md-6 pl-md-1">
+                                          <div class="form-group">
+                                            <label>Last Name</label>
+                                            <input type="text" class="form-control" placeholder="Last Name" value="Andrew">
+                                          </div>
+                                        </div>
+                                      </div>
+                                      <div class="row">
+                                        <div class="col-md-12">
+                                          <div class="form-group">
+                                            <label>Address</label>
+                                            <input type="text" class="form-control" placeholder="Home Address" value="Bld Mihail Kogalniceanu, nr. 8 Bl 1, Sc 1, Ap 09">
+                                          </div>
+                                        </div>
+                                      </div>
+                                      <div class="row">
+                                        <div class="col-md-4 pr-md-1">
+                                          <div class="form-group">
+                                            <label>City</label>
+                                            <input type="text" class="form-control" placeholder="City" value="Mike">
+                                          </div>
+                                        </div>
+                                        <div class="col-md-4 px-md-1">
+                                          <div class="form-group">
+                                            <label>Country</label>
+                                            <input type="text" class="form-control" placeholder="Country" value="Andrew">
+                                          </div>
+                                        </div>
+                                        <div class="col-md-4 pl-md-1">
+                                          <div class="form-group">
+                                            <label>Postal Code</label>
+                                            <input type="number" class="form-control" placeholder="ZIP Code">
+                                          </div>
+                                        </div>
+                                      </div>
+                                      <div class="row">
+                                        <div class="col-md-8">
+                                          <div class="form-group">
+                                            <label>About Me</label>
+                                            <textarea rows="4" cols="80" class="form-control" placeholder="Here can be your description" value="Mike">Lamborghini Mercy, Your chick she so thirsty, I'm in that two seat Lambo.</textarea>
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </form>
+                                  </div>
+                                  <div class="card-footer">
+                                    <button type="submit" class="btn btn-fill btn-primary">Save</button>
+                                  </div>
+                              </div>
+
+                  <!-- the div below is for end of card -->
+
+
+
+          </div>
+          
+        </div>
+    </div>
+
+
+      <!-- table ends here -->
+  ...</div>
+
+    <!-- Destinations -->
+
+  <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
+
+    <!-- table begins here -->
+      <!-- this is where originally the table starts from  -->
+         
+              <div class="alert alert-danger alert-dismissible fade show" role="alert">
+              <strong>Holy guacamole!</strong> You should check in on some of those fields below.
+              <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+
+              <form>
+        <div class="form-group">
+          <label for="exampleInputEmail1">Email address</label>
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+          <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+        </div>
+        <div class="form-group">
+          <label for="exampleInputPassword1">Password</label>
+          <input type="password" class="form-control" id="exampleInputPassword1">
+        </div>
+        <div class="form-group form-check">
+          <input type="checkbox" class="form-check-input" id="exampleCheck1">
+          <label class="form-check-label" for="exampleCheck1">Check me out</label>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      <!-- table ends here -->
+
+
+  ...</div>
+
+
+
+
+
+<!-- this is where originally the table starts from  -->
+ 
+
+    </main>
+  </div>
+</div>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+      <script>window.jQuery || document.write('<script src="../assets/js/vendor/jquery.slim.min.js"><\/script>')</script><script src="../assets/dist/js/bootstrap.bundle.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/feather-icons/4.9.0/feather.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.3/Chart.min.js"></script>
+        <script src="dashboard.js"></script></body>
+</html>

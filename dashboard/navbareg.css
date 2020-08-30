@@ -1,0 +1,59 @@
+.navbaregs {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.navbaregs .ahrefclass {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdownxx {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdownxx .dropbtnxx {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbaregs .ahrefclass:hover, .dropdownxx:hover .dropbtnxx {
+  background-color: red;
+}
+
+.dropdownxx-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdownxx-content .ahrefclass {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdownxx-content .ahrefclass:hover {
+  background-color: #ddd;
+}
+
+.dropdownxx:hover .dropdownxx-content {
+  display: block;
+}

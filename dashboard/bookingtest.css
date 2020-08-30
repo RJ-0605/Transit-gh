@@ -1,0 +1,14 @@
+
+.board-wrapper {
+    width: 50%;
+    margin-right: 30px; }
+
+.board-inner {
+  background: #fff;
+  color: #012353;
+  font-size: 14px;
+  border-radius: 15px;
+  padding: 22px 33px 13px 21px; }
+
+  .board-item span {
+    margin-left: 13px; }
